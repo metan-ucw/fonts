@@ -18,7 +18,7 @@ FOUNDRY "ucw.cz"
 SETWIDTH_NAME "Normal"
 SLANT "R"
 WEIGHT_NAME "Medium"
-_GBDFED_INFO "Edited with gbdfed 1.4."
+_GBDFED_INFO "Edited with gbdfed 1.5."
 ENDPROPERTIES
 CHARS 199
 STARTCHAR char0
@@ -1944,10 +1944,10 @@ BITMAP
 00
 84
 84
-C4
-A4
-94
 8C
+94
+A4
+C4
 84
 00
 00
@@ -1965,10 +1965,10 @@ BITMAP
 30
 84
 84
-C4
-A4
-94
 8C
+94
+A4
+C4
 84
 00
 00
