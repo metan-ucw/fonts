@@ -1,0 +1,21 @@
+Terminal bitmap fonts
+---------------------
+
+Distributed under GPLv2+.
+
+
+How to edit these fonts
+^^^^^^^^^^^^^^^^^^^^^^^
+
+The pcf files are binary compiled X fonts generated from bdf by bdftopcf utility.
+
+The bdf fonts are plain text and could be edited by your favorite text editor
+or by a bit cranky gbdfed editor.
+
+
+How to use the fonts with xterm
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Create the directory under /usr/share/fonts and copy the pcf files and fonts.dir there
+* Add the fonts into X font directory (either in XOrg configuration or by xset +fp /usr/share/fonts/dir/)
+* run xterm -fn -haxor-medium-12 (or any other name as defined in fonts.dir)
