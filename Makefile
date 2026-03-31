@@ -9,6 +9,6 @@ $(FONTS): %.pcf: %.bdf
 clean:
 	rm -f $(FONTS)
 
-install:
+install: $(FONTS)
 	install -d -m 775 $(DESTDIR)/usr/share/fonts/haxor/
 	install -m 644 $(FONTS) fonts.dir $(DESTDIR)/usr/share/fonts/haxor/
