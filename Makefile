@@ -6,6 +6,9 @@ all: $(FONTS)
 $(FONTS): %.pcf: %.bdf
 	bdftopcf $< > $@
 
+gfxprim.bdf: gfxprim/*
+	gpforge-cli bdf gfxprim/ regular > gfxprim.bdf
+
 clean:
 	rm -f $(FONTS)
 

@@ -1,0 +1,22 @@
+family         gfxprim
+size           11
+ascent         9
+descent        2
+line_gap       0
+
+em             16
+x_height       7
+cap_height     9
+ch_width       8
+
+underline      -1 1
+strikethrough  3 1
+overline       0 1
+
+default_glyph  U+003F
+license        LGPL-2.1-or-later
+
+author         2009-2010 Jiri "BlueBear" Dluhos <jiri.bluebear.dluhos@gmail.com>
+author         2009-2026 Cyril Hrubis <metan@ucw.cz>
+
+block          U+0400 U+04FF Cyrillic
